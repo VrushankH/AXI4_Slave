@@ -14,6 +14,7 @@
 //   - Reset behaviour     : memory cleared to 0, all channel outputs return to idle
 // =============================================================================
 
+
 module axi4_full_slave #(
     parameter int DATA_WIDTH    = 32,
     parameter int ADDR_WIDTH    = 32,
