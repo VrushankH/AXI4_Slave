@@ -178,8 +178,8 @@ $dumpvars(0, axi4_top);
 At the end of simulation, the scoreboard prints a PASS/FAIL summary and the functional coverage percentage:
 
 ```text
-SCOREBOARD SUMMARY : PASS=<count>  FAIL=<count>
-Functional coverage = <coverage> %
+SCOREBOARD SUMMARY : PASS=<count>  FAIL=0
+Functional coverage = 100%
 ```
 
 A successful verification run should complete the directed and constrained-random tests without scoreboard failures and achieve high functional coverage.
